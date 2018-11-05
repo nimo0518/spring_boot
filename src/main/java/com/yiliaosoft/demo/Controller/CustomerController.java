@@ -2,7 +2,10 @@ package com.yiliaosoft.demo.Controller;
 
 
 import org.springframework.web.bind.annotation.*;
-
+/**
+ * @RestController注解等价于@Controller+@ResponseBody的结合，
+ * 使用这个注解的类里面的方法都以json格式输出。
+ */
 @RestController
 public class CustomerController {
 
